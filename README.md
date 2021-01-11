@@ -13,3 +13,6 @@ git show 3728320hfdjkhfj2389
 //working directory: file dang su dung
 //staging area: nhung file mau xanh la nam trong staging area
 //git repository: luu nhung thay doi cua commit
+
+//git checkout
+//git reset
