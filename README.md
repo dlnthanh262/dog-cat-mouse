@@ -38,4 +38,8 @@ in case want to delete commit before that
 
 //git revert <commit_id> : quay lai trang thai cua chi commit do thoi
 
-Khong muon commit 1 so file thi tao 1 file .gitignore	
+Khong muon commit 1 so file thi tao 1 file .gitignore
+
+//luu tru thong tin dang nhap khi push 
+cmd: git config --global credential.helper store : not encript
+cmd: git config --global credential.helper "cache --timeout=18000"
