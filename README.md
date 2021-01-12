@@ -43,3 +43,15 @@ Khong muon commit 1 so file thi tao 1 file .gitignore
 //luu tru thong tin dang nhap khi push 
 cmd: git config --global credential.helper store : not encript
 cmd: git config --global credential.helper "cache --timeout=18000"
+
+//git clone
+git clone <link_repos>
+//git pull
+git pull
+
+//pull request
+//1. git checkout -b <feature branch>
+//2. git push origin <branch>
+//3. create a pull request on Github 
+//4. review code
+//5. merge to master
