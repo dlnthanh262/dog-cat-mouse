@@ -28,3 +28,14 @@ git checkout A
 git merge B
 master <---- feature/dog-class
 //git branch -D <branch> (delete a branch)
+
+//git reset --soft <to_commit_id> (SHA1ID)
+in case want to turn back before commit (in staging area)
+//git reset --mixed <to_commit_id>
+in case want to turn back before in stage (in working directory)
+//git reset --hard <to_commit_id>
+in case want to delete commit before that
+
+//git revert <commit_id> : quay lai trang thai cua chi commit do thoi
+
+Khong muon commit 1 so file thi tao 1 file .gitignore	
