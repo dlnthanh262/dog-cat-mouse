@@ -54,4 +54,20 @@ git pull
 //2. git push origin <branch>
 //3. create a pull request on Github 
 //4. review code
+	//4.1 review code online (github)
+	//4.2 fetch branch into local to test offline (optional)
+	//4.3 approve the pull request
 //5. merge to master
+
+//resolve conflicts
+when will conflicts happen?
+	1. Changing the same file + same line
+	2. A deleted file X, B modified file X
+Method 1:
+	1. Using 'git rebase'
+	2. Resolve conflict
+	3. Push again with -f
+Method 2:
+	1. Merge updated master to feature branch
+	2.	Resolve conflict
+	3. Commit and push
